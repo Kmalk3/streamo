@@ -3,12 +3,12 @@ const client = new Discord.Client();
 var prefix = "+";
 client.on('ready', () => {
    console.log(`----------------`);
-      console.log(`Cyhper Bot Script By : DREAM`);
+      console.log(`Cyhper Bot Script By : King`);
         console.log(`----------------`);
-      console.log(`ON ${client.guilds.size} Servers '     Script By : DREAM ' `);
+      console.log(`ON ${client.guilds.size} Servers '     Script By : King ' `);
     console.log(`----------------`);
   console.log(`Logged in as ${client.user.tag}!`);
-client.user.setGame(`TEXT`,"http://twitch.tv/Dream")
+client.user.setGame(`اصابعك على زناد , وعينك على هدف.`,"http://twitch.tv/Dream")
 client.user.setStatus("dnd")
 });
 
